@@ -5,6 +5,9 @@ This module provides a REST API interface for the web automation system,
 allowing programmatic access to the agent's capabilities.
 """
 
+import utils.http_session
+import utils.transport
+import utils.session
 import asyncio
 import logging
 from typing import Dict, Any, Optional
